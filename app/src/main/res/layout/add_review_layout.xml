@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/_2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/add_review_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="@dimen/dialog_text_size"
+        />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_1.5"
+        />
+
+    <EditText
+        android:id="@+id/review_message"
+        tools:text="@string/lorem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dialog_text_size"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:text="@string/cancel"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            style="@style/cancelButton"
+            />
+
+        <Button
+            android:id="@+id/add_button"
+            android:text="@string/accept"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_1"
+            android:layout_marginStart="@dimen/_1"
+            style="@style/customButton"
+            />
+
+    </LinearLayout>
+</LinearLayout>

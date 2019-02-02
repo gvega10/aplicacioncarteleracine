@@ -1,0 +1,57 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="movie_genre_item_width">72dp</dimen>
+    <dimen name="movie_genre_item_height">64dp</dimen>
+    <dimen name="movie_genre_item_image">32dp</dimen>
+    <dimen name="movie_genre_list_padding">5dp</dimen>
+    <dimen name="movie_genre_margin">5dp</dimen>
+    <dimen name="movie_height">200dp</dimen>
+    <dimen name="progressbar">110dp</dimen>
+    <dimen name="movie_title">18sp</dimen>
+    <dimen name="movie_container">120dp</dimen>
+    <dimen name="movie_detail_image">90dp</dimen>
+    <dimen name="review_min_height">100dp</dimen>
+
+    <dimen name="toolbar_title">18sp</dimen>
+
+    <dimen name="buttom_size_text">20sp</dimen>
+
+    <dimen name="action_link">14sp</dimen>
+
+    <!-- String -->
+    <dimen name="title">20sp</dimen>
+    <dimen name="subtitle">16sp</dimen>
+
+    <dimen name="dialog_text_size">20sp</dimen>
+
+    <dimen name="profile_image_container"> 250dp</dimen>
+
+    <dimen name="profile_image"> 90dp</dimen>
+
+    <dimen name="border_image_profile"> 1dp</dimen>
+
+    <dimen name="setting_icon_background">30dp</dimen>
+
+    <dimen name="setting_icon">15dp</dimen>
+
+    <!-- Buttons -->
+    <dimen name="custom_button">18sp</dimen>
+
+    <!-- Custom Dimens-->
+    <dimen name="_0.50">4dp</dimen>
+    <dimen name="_1">8dp</dimen>
+    <dimen name="_1.5">10dp</dimen>
+    <dimen name="_2">16dp</dimen>
+    <dimen name="_3">24dp</dimen>
+    <dimen name="_4">32dp</dimen>
+    <dimen name="_5">40dp</dimen>
+    <dimen name="_6">48dp</dimen>
+    <dimen name="_7">56dp</dimen>
+    <dimen name="_8">64dp</dimen>
+    <dimen name="_9">72dp</dimen>
+
+
+
+</resources>

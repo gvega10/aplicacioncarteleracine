@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <FrameLayout
+        android:id="@+id/icon_container"
+        android:background="@drawable/oval_shape"
+        android:gravity="center_vertical"
+        android:layout_width="@dimen/setting_icon_background"
+        android:layout_height="@dimen/setting_icon_background"
+        android:layout_margin="@dimen/_1"
+        >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/setting_icon"
+            android:layout_height="@dimen/setting_icon"
+            android:layout_gravity="center"
+            tools:src="@drawable/ic_movie"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon_container"
+        android:layout_toEndOf="@+id/icon_container"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_0.50"
+        android:layout_marginLeft="@dimen/_0.50"
+    >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Titulo"
+            android:textColor="@color/primary_text"
+            android:textSize="14sp"
+        />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/_1"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/_1"
+        >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/movie_container">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/image_container"
+            android:padding="@dimen/_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/movie_detail_image"
+                android:layout_height="match_parent"
+                android:src="@drawable/claqueta"
+                android:layout_margin="@dimen/_0.50"
+                android:scaleType="fitXY"
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_toEndOf="@+id/image_container"
+            android:layout_toRightOf="@+id/image_container"
+            android:paddingLeft="@dimen/_0.50"
+            android:paddingStart="@dimen/_0.50"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_gravity="start"
+                style="@style/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Movie Title"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RatingBar
+                    android:id="@+id/rating_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:stepSize="0.3"
+                    android:numStars="5"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/rating_text"
+                    android:layout_marginStart="@dimen/_0.50"
+                    android:layout_marginLeft="@dimen/_0.50"
+                    tools:text="8.0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/subTitle"
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                    android:id="@+id/movie_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Duraciòn: 120 min."
+                    style="@style/subTitle"
+                />
+
+
+            <TextView
+                android:id="@+id/movie_genre"
+                tools:text="Género: Terror."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/subTitle"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

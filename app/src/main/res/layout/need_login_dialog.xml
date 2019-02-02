@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/_2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/message"
+        android:text="@string/need_login_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dialog_text_size"
+        android:layout_marginBottom="@dimen/_0.50"
+        android:textAlignment="center"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:text="@string/cancel"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            style="@style/cancelButton"
+            />
+
+        <Button
+            android:id="@+id/log_in"
+            android:text="@string/log_in"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_1"
+            android:layout_marginStart="@dimen/_1"
+            style="@style/customButton"
+
+            />
+    </LinearLayout>
+</LinearLayout>

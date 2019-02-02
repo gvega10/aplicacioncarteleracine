@@ -1,0 +1,40 @@
+<resources>
+    <string name="preference_file_key">ar.com.um.cartelera</string>
+    <string name="application_name">Cartelera</string>
+    <string name="title_movies">Cartelera</string>
+    <string name="title_configuration">Configuración</string>
+    <string name="premiere">Estreno</string>
+    <string name="empty_movie_list">No hay peliculas en cartelera.</string>
+    <string name="movie_genre">Género: %1$s.</string>
+    <string name="movie_score">Puntaje: %1$s.</string>
+    <string name="movie_duration">Duraciòn: %1$s min.</string>
+    <string name="duration">%1$s min.</string>
+    <string name="sinopsis">Sinopsis </string>
+    <string name="lorem">Lorem ipsum dolor sit amet consectetur adipiscing elit tempor, nunc torquent hac dictumst donec felis dui curae, lacus in magna dictum erat lectus mus. Taciti scelerisque egestas commodo mauris hac montes fringilla sociosqu magnis, facilisis augue tempus aliquet senectus et massa. Turpis conubia ornare eleifend a nascetur vel, aliquam accumsan facilisi dui molestie, dis nulla porttitor commodo gravida.</string>
+    <string name="reviews"> Criticas </string>
+    <string name="add_review"> Calificar </string>
+    <string name="cancel"> Cancelar </string>
+    <string name="accept"> Aceptar </string>
+
+    <string name="log_in"> Iniciar sesion </string>
+    <string name="need_login_review"> Necesitas iniciar sesiòn para poder agregar tu critica a esta pelicula. </string>
+
+
+    <string name="email"> Email </string>
+    <string name="password"> Contraseña </string>
+    <string name="forget_password"> Olvidé mi contraseña</string>
+    <string name="sign_in_link"> No tengo cuenta</string>
+    <string name="add_review_title"> Cuentanos que te parecio esta pelicula</string>
+    <string name="fill_review_message"> ¡No te olvides de comentarnos que te parecio!</string>
+    <string name="fill_score"> ¡No te olvides de puntuar la pelicula!</string>
+
+
+
+
+    <!-- Settings -->
+    <string name="setting_change_password_title"> Cambiar contraseña</string>
+    <string name="setting_notification_title"> Notificaciones</string>
+    <string name="setting_log_out_title"> Cerrar sesión</string>
+
+
+</resources>

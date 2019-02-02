@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_margin="@dimen/movie_genre_margin"
+    >
+
+    <ImageView
+        android:id="@+id/image_background"
+        android:scaleType="fitXY"
+        android:layout_width="@dimen/movie_genre_item_width"
+        android:layout_height="@dimen/movie_genre_item_width"
+        tools:src="@drawable/movie_genre_example"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/genre_movie_image"
+            android:layout_width="@dimen/movie_genre_item_image"
+            android:layout_height="@dimen/movie_genre_item_image"
+            tools:src="@drawable/movie_genre_example"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/genre_name"
+            tools:text="Terror"
+            style="@style/movie_genre_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

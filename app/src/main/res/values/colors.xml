@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#0288D1</color>
+    <color name="primary_light">#B3E5FC</color>
+    <color name="accent">#448AFF</color>
+    <color name="setting_items">#448AFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="cancel_button">#42e8f4</color>
+    <color name="actionBar">#808080</color>
+    <color name="productSelected">#e6e6e6</color>
+    <color name="translucent_black">#99000000</color>
+    <color name="yellow">#ffff00</color>
+    <color name="translucent">#29000000</color>
+
+
+
+</resources>
